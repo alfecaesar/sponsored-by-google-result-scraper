@@ -5,4 +5,4 @@ https://www.python.org/
 `pip3 install selenium`
 
 ### Run script
-`python3 google_scraper`
+`python3 google_scraper.py`
