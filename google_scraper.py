@@ -19,7 +19,7 @@ search_box.send_keys(Keys.RETURN)
 time.sleep(5)  # Adjust the time as needed
 
 # Capture screenshot of the newsfeed
-# driver.find_elements(By.CLASS_NAME, "pla-exp-container").save_screenshot("google-search-result-sponsored.png")
+driver.find_element(By.CLASS_NAME, "pla-exp-container").screenshot("google-search-result-sponsored.png")
 
 # Get the information of all products under "Sponsored" list
 sponsored_products = driver.find_elements(By.CLASS_NAME, "pla-unit")
